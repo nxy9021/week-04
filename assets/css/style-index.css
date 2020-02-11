@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color:white;
+    border: 50px solid yellow;
+    padding: 40px;
+    font-family: roboto;
+    height:100%
+}
+.author {
+    font-size: 200px;
+    font-family: roboto;
+    font-weight: bolder;
+}
+.author:hover{
+    font-size: 205px;
+    cursor: crosshair;
+}
+/* project function */
+.recentprojects {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project {
+    display:grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    background-color: #333333;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:10px;
+    border:solid;
+    border-color: red;
+}
+.project a {
+    color: rgb(213, 213, 226)
+}
